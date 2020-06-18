@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px,0px,0px,0px;
+}
+/*contenedor*/
+.content {
+   margin: auto;
+    width: 80%;
+    border: 1px,1px,1px,1px;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    
+}
+
+/*header*/
+header {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0,0,0,0.7);
+    
+}
+
+header h1 {
+    padding-top: 15px;
+    color: white;
+}
+
+
+ /*contenido*/
+.informacion {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+     background-color: rgba(0,0,0,0.5);
+    
+}
+/*contenido - PRIMER BLOQUE*/
+.informacion #primer_bloque {
+    width: 100%;
+    height: auto;
+    color: white;
+}
+.informacion #primer_bloque h2 {
+     color: white;
+    
+}
+#primer_bloque p {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 5px;
+    margin: auto;
+    width: 80%;
+    height: auto;
+    text-align: justify;
+}
+/*contenido - SEGUNDO BLOQUE*/
+.informacion #segundo_bloque {
+    padding-top: 20px;
+    width: 100%;
+    height: 500px;
+}
+/*Ultimo bloque*/
+#ultimo_bloque {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    color: white;
+}
+#ultimo_bloque h1{
+    color: white;
+}
+#ultimo_bloque p {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.imagene_format {
+    
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    padding-top: 15px;
+}
+
+/*pie de pagina*/
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color:white;
+    padding-top: 20px;
+}

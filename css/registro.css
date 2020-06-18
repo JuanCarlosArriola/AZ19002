@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+body {
+    background-image: url(../image/Background.jpg);
+    background-attachment: fixed;
+}
+table {
+    background-color: rgba(0,0,34,0.5);
+    
+}
+
+h1, a {
+    text-align: center;
+    color: white;
+ 
+}
+h1 {
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    
+}
+
+.tabla_registrarse {
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 25px;
+    border-color: black;
+    border: 5px;
+}
+.tabla_registrarse {
+      border-style:outset;
+      border-color: black;
+}
+
+.tabla_registrarse, td {
+    padding: 10px;
+}
+
+.button_Login {
+    width: 90%;
+}
+
+
+
